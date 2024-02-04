@@ -1,0 +1,26 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/Users/Calvin/Desktop/cs415/mp1/InfiniteMatrixStarter 5.3/Content/InfiniteMatrix/Blueprints/BP_TunnelSpawner.uasset",
+				"C:/Users/Calvin/Desktop/cs415/mp1/InfiniteMatrixStarter 5.3/Content/InfiniteMatrix/Blueprints/BP_Tunnel.uasset",
+				"C:/Users/Calvin/Desktop/cs415/mp1/InfiniteMatrixStarter 5.3/Content/InfiniteMatrix/Maps/TutorialMap.umap",
+				"C:/Users/Calvin/Desktop/cs415/mp1/InfiniteMatrixStarter 5.3/Content/InfiniteMatrix/Blueprints/BP_Player.uasset",
+				"C:/Users/Calvin/Desktop/cs415/mp1/InfiniteMatrixStarter 5.3/Content/InfiniteMatrix/UI/WBP_Restart.uasset",
+				"C:/Users/Calvin/Desktop/cs415/mp1/InfiniteMatrixStarter 5.3/Content/InfiniteMatrix/UI/WBP_HealthBar.uasset",
+				"C:/Users/Calvin/Desktop/cs415/mp1/InfiniteMatrixStarter 5.3/Content/InfiniteMatrix/UI/WBP_ScoreBoard.uasset",
+				"C:/Users/Calvin/Desktop/cs415/mp1/InfiniteMatrixStarter 5.3/Content/InfiniteMatrix/Blueprints/BP_HealthPack.uasset",
+				"C:/Users/Calvin/Desktop/cs415/mp1/InfiniteMatrixStarter 5.3/Content/InfiniteMatrix/Blueprints/BP_HealthPackSpawner.uasset",
+				"C:/Users/Calvin/Desktop/cs415/mp1/InfiniteMatrixStarter 5.3/Content/InfiniteMatrix/Materials/M_Glow.uasset",
+				"C:/Users/Calvin/Desktop/cs415/mp1/InfiniteMatrixStarter 5.3/Content/InfiniteMatrix/Materials/MI_Glow.uasset",
+				"C:/Users/Calvin/Desktop/cs415/mp1/InfiniteMatrixStarter 5.3/Content/InfiniteMatrix/Materials/MI_GlowBlue.uasset",
+				"C:/Users/Calvin/Desktop/cs415/mp1/InfiniteMatrixStarter 5.3/Content/InfiniteMatrix/Blueprints/BP_Bullet.uasset",
+				"C:/Users/Calvin/Desktop/cs415/mp1/InfiniteMatrixStarter 5.3/Content/InfiniteMatrix/Materials/MI_GlowRed.uasset",
+				"C:/Users/Calvin/Desktop/cs415/mp1/InfiniteMatrixStarter 5.3/Content/InfiniteMatrix/Blueprints/BP_Enemy.uasset"
+			]
+		}
+	]
+}
