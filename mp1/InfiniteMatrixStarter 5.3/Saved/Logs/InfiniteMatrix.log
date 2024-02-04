@@ -1731,3 +1731,966 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.02.04-05.54.54:175][909]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
 [2024.02.04-05.55.12:407][ 96]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
 [2024.02.04-05.55.12:407][ 96]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2024.02.04-05.58.25:068][904]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.02.04-05.58.25:068][904]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2024.02.04-05.58.31:980][494]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.04-05.58.31:980][494]LogWorld: BeginTearingDown for /Game/InfiniteMatrix/Maps/UEDPIE_0_TutorialMap
+[2024.02.04-05.58.31:980][494]LogWorld: UWorld::CleanupWorld for TutorialMap, bSessionEnded=true, bCleanupResources=true
+[2024.02.04-05.58.31:980][494]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.04-05.58.31:982][494]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.04-05.58.31:986][494]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.04-05.58.31:994][494]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.02.04-05.58.31:994][494]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 9
+[2024.02.04-05.58.31:994][494]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2024.02.04-05.58.31:995][494]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2024.02.04-05.58.31:998][494]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.04-05.58.32:001][494]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2024.02.04-05.58.32:041][496]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2024.02.04-05.58.38:424][987]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.04-05.58.38:464][987]LogSavePackage: Moving output files for package: /Game/InfiniteMatrix/Blueprints/BP_Player
+[2024.02.04-05.58.38:465][987]LogSavePackage: Moving '../../../../../../Users/Calvin/Desktop/cs415/mp1/InfiniteMatrixStarter 5.3/Saved/BP_Player0EF9F9A84DB852FF45DF3095FD86021C.tmp' to '../../../../../../Users/Calvin/Desktop/cs415/mp1/InfiniteMatrixStarter 5.3/Content/InfiniteMatrix/Blueprints/BP_Player.uasset'
+[2024.02.04-05.58.38:472][987]LogFileHelpers: InternalPromptForCheckoutAndSave took 48 ms (total: 782 ms)
+[2024.02.04-05.58.38:473][987]AssetCheck: New page: Asset Save: BP_Player
+[2024.02.04-05.58.38:473][987]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/InfiniteMatrix/Blueprints/BP_Player.BP_Player
+[2024.02.04-05.58.39:284][ 84]BlueprintLog: New page: Compile BP_Player
+[2024.02.04-05.58.39:312][ 84]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2024.02.04-05.58.44:725][376]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.02.04-05.58.44:729][376]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.04-05.58.44:729][376]PIE: New page: PIE session: TutorialMap (Feb 3, 2024, 5:58:44 PM)
+[2024.02.04-05.58.44:750][376]LogPlayLevel: Display: Creating online subsystem for client :Context_20
+[2024.02.04-05.58.44:751][376]LogOnline: OSS: Created online subsystem instance for: :Context_20
+[2024.02.04-05.58.44:756][377]LogPlayLevel: Creating play world package: /Game/InfiniteMatrix/Maps/UEDPIE_0_TutorialMap
+[2024.02.04-05.58.44:757][377]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001559s)
+[2024.02.04-05.58.44:757][377]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/InfiniteMatrix/Maps/TutorialMap.TutorialMap to /Game/InfiniteMatrix/Maps/UEDPIE_0_TutorialMap.TutorialMap (0.001587s)
+[2024.02.04-05.58.44:769][377]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2024.02.04-05.58.44:770][377]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.04-05.58.44:771][377]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.04-05.58.44:771][377]LogAIModule: Creating AISystem for world TutorialMap
+[2024.02.04-05.58.44:771][377]LogPlayLevel: PIE: World Init took: (0.000664s)
+[2024.02.04-05.58.44:771][377]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2024.02.04-05.58.44:771][377]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.04-05.58.44:771][377]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.04-05.58.44:771][377]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.04-05.58.44:771][377]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.04-05.58.44:771][377]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.02.04-05.58.44:771][377]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.02.04-05.58.44:771][377]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.02.04-05.58.44:771][377]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.04-05.58.44:771][377]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.04-05.58.44:771][377]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.04-05.58.44:771][377]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.04-05.58.44:774][377]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.04-05.58.44:796][377]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Focusrite USB Audio)
+[2024.02.04-05.58.44:796][377]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.04-05.58.44:796][377]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.04-05.58.44:796][377]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.04-05.58.44:797][377]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2024.02.04-05.58.44:797][377]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=10
+[2024.02.04-05.58.44:798][377]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2024.02.04-05.58.44:799][377]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2024.02.04-05.58.44:799][377]LogInit: FAudioDevice initialized with ID 10.
+[2024.02.04-05.58.44:799][377]LogAudio: Display: Audio Device (ID: 10) registered with world 'TutorialMap'.
+[2024.02.04-05.58.44:799][377]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 10
+[2024.02.04-05.58.44:801][377]LogLoad: Game class is 'GM_Tutorial_C'
+[2024.02.04-05.58.44:801][377]LogWorld: Bringing World /Game/InfiniteMatrix/Maps/UEDPIE_0_TutorialMap.TutorialMap up for play (max tick rate 0) at 2024.02.03-23.58.44
+[2024.02.04-05.58.44:801][377]LogWorld: Bringing up level for play took: 0.000288
+[2024.02.04-05.58.44:806][377]PIE: Server logged in
+[2024.02.04-05.58.44:807][377]PIE: Play in editor total start time 0.078 seconds.
+[2024.02.04-05.58.49:889][986]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-05.58.50:089][ 10]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-05.58.51:347][161]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-05.58.56:989][838]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.02.04-05.58.56:989][838]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2024.02.04-05.58.57:872][944]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.02.04-05.58.57:872][944]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2024.02.04-05.59.05:720][885]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.02.04-05.59.05:720][885]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2024.02.04-05.59.11:320][557]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.02.04-05.59.11:320][557]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2024.02.04-05.59.21:131][734]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-05.59.21:331][758]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-05.59.21:532][782]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-05.59.21:733][806]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-05.59.21:932][830]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-05.59.22:132][854]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-05.59.22:332][878]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-05.59.22:532][902]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-05.59.22:732][926]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-05.59.22:932][950]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-05.59.23:133][974]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-05.59.23:332][998]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-05.59.23:533][ 22]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-05.59.23:732][ 46]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-05.59.23:932][ 70]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-05.59.30:356][841]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.02.04-05.59.30:356][841]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2024.02.04-05.59.30:356][841]LogScript: Warning: Script Msg: The widget 'WBP_Restart_C_0' was already added to the screen.
+[2024.02.04-05.59.30:356][841]LogScript: Warning: Script Msg called by: BP_Player_C /Game/InfiniteMatrix/Maps/UEDPIE_0_TutorialMap.TutorialMap:PersistentLevel.BP_Player_C_0
+[2024.02.04-05.59.31:190][941]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.02.04-05.59.31:190][941]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2024.02.04-06.00.00:253][427]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.02.04-06.00.00:254][427]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2024.02.04-06.00.25:772][261]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.04-06.00.25:772][261]LogWorld: BeginTearingDown for /Game/InfiniteMatrix/Maps/UEDPIE_0_TutorialMap
+[2024.02.04-06.00.25:772][261]LogWorld: UWorld::CleanupWorld for TutorialMap, bSessionEnded=true, bCleanupResources=true
+[2024.02.04-06.00.25:772][261]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.04-06.00.25:774][261]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.04-06.00.25:777][261]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.04-06.00.25:785][261]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.02.04-06.00.25:786][261]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 10
+[2024.02.04-06.00.25:786][261]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2024.02.04-06.00.25:787][261]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2024.02.04-06.00.25:790][261]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.04-06.00.25:792][261]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2024.02.04-06.00.25:834][263]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2024.02.04-06.00.29:542][706]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/InfiniteMatrix/Blueprints/BP_HealthPack.BP_HealthPack
+[2024.02.04-06.00.29:542][706]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.04-06.00.29:542][706]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.04-06.00.40:999][810]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/InfiniteMatrix/Blueprints/BP_TunnelSpawner.BP_TunnelSpawner
+[2024.02.04-06.00.40:999][810]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.04-06.00.40:999][810]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.04-06.00.52:218][104]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.04-06.00.52:257][104]LogSavePackage: Moving output files for package: /Game/InfiniteMatrix/Blueprints/BP_TunnelSpawner
+[2024.02.04-06.00.52:258][104]LogSavePackage: Moving '../../../../../../Users/Calvin/Desktop/cs415/mp1/InfiniteMatrixStarter 5.3/Saved/BP_TunnelSpawnerDEA4461C48FB0C2EEBFF6D9E4738F3A5.tmp' to '../../../../../../Users/Calvin/Desktop/cs415/mp1/InfiniteMatrixStarter 5.3/Content/InfiniteMatrix/Blueprints/BP_TunnelSpawner.uasset'
+[2024.02.04-06.00.52:266][104]LogFileHelpers: InternalPromptForCheckoutAndSave took 48 ms (total: 830 ms)
+[2024.02.04-06.00.52:267][104]AssetCheck: New page: Asset Save: BP_TunnelSpawner
+[2024.02.04-06.00.52:267][104]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/InfiniteMatrix/Blueprints/BP_TunnelSpawner.BP_TunnelSpawner
+[2024.02.04-06.01.03:356][414]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.04-06.01.03:394][414]LogSavePackage: Moving output files for package: /Game/InfiniteMatrix/Blueprints/BP_TunnelSpawner
+[2024.02.04-06.01.03:395][414]LogSavePackage: Moving '../../../../../../Users/Calvin/Desktop/cs415/mp1/InfiniteMatrixStarter 5.3/Saved/BP_TunnelSpawner26B0DFE54A469EBB16CEF69BF1938CAE.tmp' to '../../../../../../Users/Calvin/Desktop/cs415/mp1/InfiniteMatrixStarter 5.3/Content/InfiniteMatrix/Blueprints/BP_TunnelSpawner.uasset'
+[2024.02.04-06.01.03:401][414]LogFileHelpers: InternalPromptForCheckoutAndSave took 44 ms (total: 874 ms)
+[2024.02.04-06.01.03:401][414]AssetCheck: New page: Asset Save: BP_TunnelSpawner
+[2024.02.04-06.01.03:401][414]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/InfiniteMatrix/Blueprints/BP_TunnelSpawner.BP_TunnelSpawner
+[2024.02.04-06.01.04:858][587]BlueprintLog: New page: Compile BP_TunnelSpawner
+[2024.02.04-06.01.04:889][587]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2024.02.04-06.01.08:640][867]LogEditorViewport: Clicking Background
+[2024.02.04-06.01.09:551][976]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.02.04-06.01.09:554][976]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.04-06.01.09:554][976]PIE: New page: PIE session: TutorialMap (Feb 3, 2024, 6:01:09 PM)
+[2024.02.04-06.01.09:584][976]LogPlayLevel: Display: Creating online subsystem for client :Context_23
+[2024.02.04-06.01.09:585][976]LogOnline: OSS: Created online subsystem instance for: :Context_23
+[2024.02.04-06.01.09:592][977]LogPlayLevel: Creating play world package: /Game/InfiniteMatrix/Maps/UEDPIE_0_TutorialMap
+[2024.02.04-06.01.09:593][977]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001439s)
+[2024.02.04-06.01.09:593][977]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/InfiniteMatrix/Maps/TutorialMap.TutorialMap to /Game/InfiniteMatrix/Maps/UEDPIE_0_TutorialMap.TutorialMap (0.001468s)
+[2024.02.04-06.01.09:602][977]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2024.02.04-06.01.09:604][977]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.04-06.01.09:604][977]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.04-06.01.09:604][977]LogAIModule: Creating AISystem for world TutorialMap
+[2024.02.04-06.01.09:604][977]LogPlayLevel: PIE: World Init took: (0.000677s)
+[2024.02.04-06.01.09:604][977]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2024.02.04-06.01.09:604][977]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.04-06.01.09:605][977]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.04-06.01.09:605][977]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.04-06.01.09:605][977]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.04-06.01.09:605][977]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.02.04-06.01.09:605][977]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.02.04-06.01.09:605][977]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.02.04-06.01.09:605][977]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.04-06.01.09:605][977]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.04-06.01.09:605][977]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.04-06.01.09:605][977]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.04-06.01.09:606][977]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.04-06.01.09:628][977]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Focusrite USB Audio)
+[2024.02.04-06.01.09:628][977]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.04-06.01.09:628][977]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.04-06.01.09:628][977]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.04-06.01.09:628][977]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=11
+[2024.02.04-06.01.09:628][977]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=11
+[2024.02.04-06.01.09:630][977]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2024.02.04-06.01.09:630][977]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=11
+[2024.02.04-06.01.09:630][977]LogInit: FAudioDevice initialized with ID 11.
+[2024.02.04-06.01.09:630][977]LogAudio: Display: Audio Device (ID: 11) registered with world 'TutorialMap'.
+[2024.02.04-06.01.09:630][977]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 11
+[2024.02.04-06.01.09:632][977]LogLoad: Game class is 'GM_Tutorial_C'
+[2024.02.04-06.01.09:633][977]LogWorld: Bringing World /Game/InfiniteMatrix/Maps/UEDPIE_0_TutorialMap.TutorialMap up for play (max tick rate 0) at 2024.02.04-00.01.09
+[2024.02.04-06.01.09:633][977]LogWorld: Bringing up level for play took: 0.000318
+[2024.02.04-06.01.09:638][977]PIE: Server logged in
+[2024.02.04-06.01.09:639][977]PIE: Play in editor total start time 0.084 seconds.
+[2024.02.04-06.01.19:415][149]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.02.04-06.01.19:415][149]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2024.02.04-06.01.20:731][307]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.02.04-06.01.20:731][307]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2024.02.04-06.01.43:683][ 60]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.01.43:883][ 84]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.01.44:082][108]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.01.44:283][132]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.01.44:483][156]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.01.44:683][180]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.01.44:883][204]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.01.45:083][228]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.01.45:283][252]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.01.45:483][276]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.01.46:318][376]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.01.46:519][400]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.01.46:719][424]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.01.46:918][448]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.01.47:119][472]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.01.47:319][496]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.01.47:521][520]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.01.48:470][634]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.01.48:669][658]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.01.48:869][682]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.01.48:961][693]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.02.04-06.01.48:961][693]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2024.02.04-06.01.49:070][706]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.01.49:270][730]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.01.49:470][754]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.01.49:670][778]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.01.49:870][802]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.01.50:185][840]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.02.04-06.01.50:185][840]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2024.02.04-06.01.50:774][910]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.01.50:973][934]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.01.51:174][958]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.01.51:374][982]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.01.51:574][  6]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.01.51:774][ 30]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.01.59:566][770]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.01.59:766][794]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.01.59:967][818]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.02.00:168][842]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.02.00:367][866]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.02.00:567][890]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.02.00:874][927]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.02.04-06.02.00:874][927]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2024.02.04-06.02.09:820][339]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.04-06.02.09:830][339]LogSavePackage: Moving output files for package: /Game/InfiniteMatrix/Blueprints/BP_TunnelSpawner
+[2024.02.04-06.02.09:831][339]LogSavePackage: Moving '../../../../../../Users/Calvin/Desktop/cs415/mp1/InfiniteMatrixStarter 5.3/Saved/BP_TunnelSpawnerF9F4671D4184DC2F154FC692311B8C22.tmp' to '../../../../../../Users/Calvin/Desktop/cs415/mp1/InfiniteMatrixStarter 5.3/Content/InfiniteMatrix/Blueprints/BP_TunnelSpawner.uasset'
+[2024.02.04-06.02.09:831][339]LogFileHelpers: InternalPromptForCheckoutAndSave took 11 ms (total: 886 ms)
+[2024.02.04-06.02.09:836][339]AssetCheck: New page: Asset Save: BP_TunnelSpawner
+[2024.02.04-06.02.09:836][339]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/InfiniteMatrix/Blueprints/BP_TunnelSpawner.BP_TunnelSpawner
+[2024.02.04-06.02.10:645][422]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.04-06.02.10:645][422]LogWorld: BeginTearingDown for /Game/InfiniteMatrix/Maps/UEDPIE_0_TutorialMap
+[2024.02.04-06.02.10:645][422]LogWorld: UWorld::CleanupWorld for TutorialMap, bSessionEnded=true, bCleanupResources=true
+[2024.02.04-06.02.10:645][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.04-06.02.10:647][422]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.04-06.02.10:650][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.04-06.02.10:658][422]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.02.04-06.02.10:658][422]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 11
+[2024.02.04-06.02.10:658][422]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2024.02.04-06.02.10:660][422]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2024.02.04-06.02.10:663][422]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.04-06.02.10:666][422]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2024.02.04-06.02.10:718][426]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2024.02.04-06.02.11:226][486]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.04-06.02.11:256][486]LogSavePackage: Moving output files for package: /Game/InfiniteMatrix/Blueprints/BP_TunnelSpawner
+[2024.02.04-06.02.11:256][486]LogSavePackage: Moving '../../../../../../Users/Calvin/Desktop/cs415/mp1/InfiniteMatrixStarter 5.3/Saved/BP_TunnelSpawner094772F541EF27D923513D8B18E56F3C.tmp' to '../../../../../../Users/Calvin/Desktop/cs415/mp1/InfiniteMatrixStarter 5.3/Content/InfiniteMatrix/Blueprints/BP_TunnelSpawner.uasset'
+[2024.02.04-06.02.11:262][486]LogFileHelpers: InternalPromptForCheckoutAndSave took 36 ms (total: 922 ms)
+[2024.02.04-06.02.11:263][486]AssetCheck: New page: Asset Save: BP_TunnelSpawner
+[2024.02.04-06.02.11:263][486]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/InfiniteMatrix/Blueprints/BP_TunnelSpawner.BP_TunnelSpawner
+[2024.02.04-06.02.18:343][323]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.04-06.02.18:378][323]LogSavePackage: Moving output files for package: /Game/InfiniteMatrix/Blueprints/BP_TunnelSpawner
+[2024.02.04-06.02.18:379][323]LogSavePackage: Moving '../../../../../../Users/Calvin/Desktop/cs415/mp1/InfiniteMatrixStarter 5.3/Saved/BP_TunnelSpawner4B7EA44B40172537F780B8A1DC98EC89.tmp' to '../../../../../../Users/Calvin/Desktop/cs415/mp1/InfiniteMatrixStarter 5.3/Content/InfiniteMatrix/Blueprints/BP_TunnelSpawner.uasset'
+[2024.02.04-06.02.18:384][323]LogFileHelpers: InternalPromptForCheckoutAndSave took 39 ms (total: 961 ms)
+[2024.02.04-06.02.18:385][323]AssetCheck: New page: Asset Save: BP_TunnelSpawner
+[2024.02.04-06.02.18:385][323]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/InfiniteMatrix/Blueprints/BP_TunnelSpawner.BP_TunnelSpawner
+[2024.02.04-06.02.19:437][446]BlueprintLog: New page: Compile BP_TunnelSpawner
+[2024.02.04-06.02.19:465][446]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2024.02.04-06.02.25:507][887]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.02.04-06.02.25:510][887]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.04-06.02.25:510][887]PIE: New page: PIE session: TutorialMap (Feb 3, 2024, 6:02:25 PM)
+[2024.02.04-06.02.25:510][887]LogPlayLevel: Display: Creating online subsystem for client :Context_24
+[2024.02.04-06.02.25:512][887]LogOnline: OSS: Created online subsystem instance for: :Context_24
+[2024.02.04-06.02.25:518][888]LogPlayLevel: Creating play world package: /Game/InfiniteMatrix/Maps/UEDPIE_0_TutorialMap
+[2024.02.04-06.02.25:519][888]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001134s)
+[2024.02.04-06.02.25:519][888]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/InfiniteMatrix/Maps/TutorialMap.TutorialMap to /Game/InfiniteMatrix/Maps/UEDPIE_0_TutorialMap.TutorialMap (0.001159s)
+[2024.02.04-06.02.25:528][888]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2024.02.04-06.02.25:530][888]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.04-06.02.25:530][888]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.04-06.02.25:531][888]LogAIModule: Creating AISystem for world TutorialMap
+[2024.02.04-06.02.25:531][888]LogPlayLevel: PIE: World Init took: (0.000731s)
+[2024.02.04-06.02.25:531][888]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2024.02.04-06.02.25:531][888]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.04-06.02.25:531][888]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.04-06.02.25:531][888]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.04-06.02.25:531][888]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.04-06.02.25:531][888]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.02.04-06.02.25:531][888]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.02.04-06.02.25:531][888]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.02.04-06.02.25:531][888]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.04-06.02.25:531][888]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.04-06.02.25:531][888]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.04-06.02.25:531][888]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.04-06.02.25:532][888]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.04-06.02.25:554][888]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Focusrite USB Audio)
+[2024.02.04-06.02.25:554][888]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.04-06.02.25:555][888]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.04-06.02.25:555][888]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.04-06.02.25:555][888]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=12
+[2024.02.04-06.02.25:555][888]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=12
+[2024.02.04-06.02.25:556][888]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=12
+[2024.02.04-06.02.25:556][888]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=12
+[2024.02.04-06.02.25:556][888]LogInit: FAudioDevice initialized with ID 12.
+[2024.02.04-06.02.25:556][888]LogAudio: Display: Audio Device (ID: 12) registered with world 'TutorialMap'.
+[2024.02.04-06.02.25:556][888]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 12
+[2024.02.04-06.02.25:559][888]LogLoad: Game class is 'GM_Tutorial_C'
+[2024.02.04-06.02.25:559][888]LogWorld: Bringing World /Game/InfiniteMatrix/Maps/UEDPIE_0_TutorialMap.TutorialMap up for play (max tick rate 0) at 2024.02.04-00.02.25
+[2024.02.04-06.02.25:559][888]LogWorld: Bringing up level for play took: 0.000275
+[2024.02.04-06.02.25:565][888]PIE: Server logged in
+[2024.02.04-06.02.25:565][888]PIE: Play in editor total start time 0.054 seconds.
+[2024.02.04-06.02.36:391][186]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.02.36:590][210]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.02.38:312][416]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.02.38:512][440]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.02.39:528][562]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.02.40:995][738]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.02.41:162][758]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.02.04-06.02.41:162][758]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2024.02.04-06.02.41:195][762]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.02.41:395][786]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.02.41:595][810]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.02.41:795][834]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.02.41:995][858]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.02.42:196][882]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.02.42:396][906]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.02.42:595][930]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.02.42:796][954]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.02.43:003][979]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.02.04-06.02.43:003][979]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2024.02.04-06.02.43:783][ 72]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.02.43:984][ 96]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.02.44:184][120]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.02.45:792][313]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.02.45:992][337]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.02.46:192][361]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.02.46:392][385]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.02.47:351][500]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.02.47:551][524]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.02.47:751][548]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.02.47:951][572]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.02.48:151][596]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.03.06:202][762]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.02.04-06.03.06:202][762]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2024.02.04-06.03.12:817][390]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.04-06.03.12:817][390]LogWorld: BeginTearingDown for /Game/InfiniteMatrix/Maps/UEDPIE_0_TutorialMap
+[2024.02.04-06.03.12:817][390]LogWorld: UWorld::CleanupWorld for TutorialMap, bSessionEnded=true, bCleanupResources=true
+[2024.02.04-06.03.12:817][390]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.04-06.03.12:819][390]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.04-06.03.12:822][390]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.04-06.03.12:831][390]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.02.04-06.03.12:831][390]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 12
+[2024.02.04-06.03.12:831][390]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2024.02.04-06.03.12:832][390]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2024.02.04-06.03.12:834][390]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.04-06.03.12:838][390]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2024.02.04-06.03.12:894][395]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2024.02.04-06.03.29:388][315]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.04-06.03.29:426][315]LogSavePackage: Moving output files for package: /Game/InfiniteMatrix/Blueprints/BP_TunnelSpawner
+[2024.02.04-06.03.29:427][315]LogSavePackage: Moving '../../../../../../Users/Calvin/Desktop/cs415/mp1/InfiniteMatrixStarter 5.3/Saved/BP_TunnelSpawner744FE750471B7300362030AFD9C9C148.tmp' to '../../../../../../Users/Calvin/Desktop/cs415/mp1/InfiniteMatrixStarter 5.3/Content/InfiniteMatrix/Blueprints/BP_TunnelSpawner.uasset'
+[2024.02.04-06.03.29:432][315]LogFileHelpers: InternalPromptForCheckoutAndSave took 43 ms (total: 1.00 sec)
+[2024.02.04-06.03.29:433][315]AssetCheck: New page: Asset Save: BP_TunnelSpawner
+[2024.02.04-06.03.29:433][315]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/InfiniteMatrix/Blueprints/BP_TunnelSpawner.BP_TunnelSpawner
+[2024.02.04-06.03.30:178][402]BlueprintLog: New page: Compile BP_TunnelSpawner
+[2024.02.04-06.03.30:209][402]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2024.02.04-06.03.34:423][700]LogEditorViewport: Clicking Background
+[2024.02.04-06.03.35:067][777]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.02.04-06.03.35:070][777]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.04-06.03.35:070][777]PIE: New page: PIE session: TutorialMap (Feb 3, 2024, 6:03:35 PM)
+[2024.02.04-06.03.35:070][777]LogPlayLevel: Display: Creating online subsystem for client :Context_25
+[2024.02.04-06.03.35:072][777]LogOnline: OSS: Created online subsystem instance for: :Context_25
+[2024.02.04-06.03.35:078][778]LogPlayLevel: Creating play world package: /Game/InfiniteMatrix/Maps/UEDPIE_0_TutorialMap
+[2024.02.04-06.03.35:080][778]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001136s)
+[2024.02.04-06.03.35:080][778]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/InfiniteMatrix/Maps/TutorialMap.TutorialMap to /Game/InfiniteMatrix/Maps/UEDPIE_0_TutorialMap.TutorialMap (0.001159s)
+[2024.02.04-06.03.35:090][778]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2024.02.04-06.03.35:091][778]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.04-06.03.35:091][778]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.04-06.03.35:091][778]LogAIModule: Creating AISystem for world TutorialMap
+[2024.02.04-06.03.35:092][778]LogPlayLevel: PIE: World Init took: (0.000643s)
+[2024.02.04-06.03.35:092][778]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2024.02.04-06.03.35:092][778]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.04-06.03.35:092][778]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.04-06.03.35:092][778]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.04-06.03.35:092][778]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.04-06.03.35:092][778]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.02.04-06.03.35:092][778]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.02.04-06.03.35:092][778]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.02.04-06.03.35:092][778]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.04-06.03.35:092][778]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.04-06.03.35:092][778]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.04-06.03.35:092][778]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.04-06.03.35:094][778]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.04-06.03.35:115][778]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Focusrite USB Audio)
+[2024.02.04-06.03.35:115][778]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.04-06.03.35:115][778]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.04-06.03.35:115][778]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.04-06.03.35:116][778]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=13
+[2024.02.04-06.03.35:116][778]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=13
+[2024.02.04-06.03.35:118][778]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=13
+[2024.02.04-06.03.35:118][778]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=13
+[2024.02.04-06.03.35:118][778]LogInit: FAudioDevice initialized with ID 13.
+[2024.02.04-06.03.35:118][778]LogAudio: Display: Audio Device (ID: 13) registered with world 'TutorialMap'.
+[2024.02.04-06.03.35:118][778]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 13
+[2024.02.04-06.03.35:120][778]LogLoad: Game class is 'GM_Tutorial_C'
+[2024.02.04-06.03.35:121][778]LogWorld: Bringing World /Game/InfiniteMatrix/Maps/UEDPIE_0_TutorialMap.TutorialMap up for play (max tick rate 0) at 2024.02.04-00.03.35
+[2024.02.04-06.03.35:121][778]LogWorld: Bringing up level for play took: 0.000314
+[2024.02.04-06.03.35:126][778]PIE: Server logged in
+[2024.02.04-06.03.35:126][778]PIE: Play in editor total start time 0.056 seconds.
+[2024.02.04-06.03.40:140][378]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.03.40:339][402]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.03.42:031][605]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.03.42:232][629]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.03.42:431][653]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.03.42:631][677]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.03.42:832][701]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.03.43:032][725]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.03.43:232][749]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.03.43:432][773]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.03.44:215][867]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.03.52:948][915]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.02.04-06.03.52:948][915]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2024.02.04-06.03.54:564][109]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.02.04-06.03.54:564][109]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2024.02.04-06.03.58:351][563]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.02.04-06.03.58:351][563]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2024.02.04-06.03.59:236][669]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.02.04-06.03.59:236][669]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2024.02.04-06.04.00:364][804]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.02.04-06.04.00:364][804]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2024.02.04-06.04.01:014][882]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.02.04-06.04.01:014][882]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2024.02.04-06.04.01:983][998]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.02.04-06.04.01:983][998]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2024.02.04-06.04.02:575][ 69]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.02.04-06.04.02:575][ 69]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2024.02.04-06.04.04:450][293]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.02.04-06.04.04:450][293]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2024.02.04-06.04.05:300][395]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.02.04-06.04.05:300][395]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2024.02.04-06.04.07:904][707]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.02.04-06.04.07:904][707]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2024.02.04-06.04.08:854][821]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.02.04-06.04.08:854][821]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2024.02.04-06.04.10:175][979]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.02.04-06.04.10:175][979]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2024.02.04-06.04.10:866][ 62]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.02.04-06.04.10:866][ 62]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2024.02.04-06.04.11:327][117]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.02.04-06.04.11:327][117]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2024.02.04-06.04.12:102][210]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.02.04-06.04.12:102][210]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2024.02.04-06.04.12:797][293]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.02.04-06.04.12:797][293]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2024.02.04-06.04.13:479][375]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.02.04-06.04.13:479][375]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2024.02.04-06.04.13:684][399]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.02.04-06.04.13:684][399]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2024.02.04-06.04.14:450][491]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.02.04-06.04.14:450][491]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2024.02.04-06.04.15:279][590]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.02.04-06.04.15:279][590]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2024.02.04-06.04.15:953][671]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.02.04-06.04.15:953][671]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2024.02.04-06.04.16:248][706]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.02.04-06.04.16:248][706]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2024.02.04-06.04.16:964][792]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.02.04-06.04.16:964][792]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2024.02.04-06.04.17:535][860]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.02.04-06.04.17:535][860]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2024.02.04-06.04.18:317][954]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.02.04-06.04.18:317][954]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2024.02.04-06.04.18:696][999]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.02.04-06.04.18:696][999]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2024.02.04-06.04.19:345][ 77]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.02.04-06.04.19:345][ 77]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2024.02.04-06.04.26:148][887]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.04-06.04.26:148][887]LogWorld: BeginTearingDown for /Game/InfiniteMatrix/Maps/UEDPIE_0_TutorialMap
+[2024.02.04-06.04.26:148][887]LogWorld: UWorld::CleanupWorld for TutorialMap, bSessionEnded=true, bCleanupResources=true
+[2024.02.04-06.04.26:148][887]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.04-06.04.26:151][887]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.04-06.04.26:153][887]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.04-06.04.26:164][887]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.02.04-06.04.26:164][887]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 13
+[2024.02.04-06.04.26:164][887]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2024.02.04-06.04.26:165][887]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2024.02.04-06.04.26:168][887]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.04-06.04.26:171][887]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2024.02.04-06.04.26:213][889]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2024.02.04-06.05.06:594][ 78]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.04-06.05.06:621][ 78]LogSavePackage: Moving output files for package: /Game/InfiniteMatrix/Blueprints/BP_TunnelSpawner
+[2024.02.04-06.05.06:621][ 78]LogSavePackage: Moving '../../../../../../Users/Calvin/Desktop/cs415/mp1/InfiniteMatrixStarter 5.3/Saved/BP_TunnelSpawner1C6568774EE866E35B1AA19ECB5F62E8.tmp' to '../../../../../../Users/Calvin/Desktop/cs415/mp1/InfiniteMatrixStarter 5.3/Content/InfiniteMatrix/Blueprints/BP_TunnelSpawner.uasset'
+[2024.02.04-06.05.06:628][ 78]LogFileHelpers: InternalPromptForCheckoutAndSave took 33 ms (total: 1.03 sec)
+[2024.02.04-06.05.06:629][ 78]AssetCheck: New page: Asset Save: BP_TunnelSpawner
+[2024.02.04-06.05.06:629][ 78]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/InfiniteMatrix/Blueprints/BP_TunnelSpawner.BP_TunnelSpawner
+[2024.02.04-06.05.07:448][170]BlueprintLog: New page: Compile BP_TunnelSpawner
+[2024.02.04-06.05.07:476][170]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2024.02.04-06.05.13:296][707]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.02.04-06.05.13:299][707]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.04-06.05.13:299][707]PIE: New page: PIE session: TutorialMap (Feb 3, 2024, 6:05:13 PM)
+[2024.02.04-06.05.13:349][707]LogPlayLevel: Display: Creating online subsystem for client :Context_26
+[2024.02.04-06.05.13:350][707]LogOnline: OSS: Created online subsystem instance for: :Context_26
+[2024.02.04-06.05.13:355][708]LogPlayLevel: Creating play world package: /Game/InfiniteMatrix/Maps/UEDPIE_0_TutorialMap
+[2024.02.04-06.05.13:357][708]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001191s)
+[2024.02.04-06.05.13:357][708]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/InfiniteMatrix/Maps/TutorialMap.TutorialMap to /Game/InfiniteMatrix/Maps/UEDPIE_0_TutorialMap.TutorialMap (0.001216s)
+[2024.02.04-06.05.13:367][708]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2024.02.04-06.05.13:368][708]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.04-06.05.13:368][708]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.04-06.05.13:369][708]LogAIModule: Creating AISystem for world TutorialMap
+[2024.02.04-06.05.13:369][708]LogPlayLevel: PIE: World Init took: (0.000721s)
+[2024.02.04-06.05.13:369][708]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2024.02.04-06.05.13:369][708]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.04-06.05.13:369][708]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.04-06.05.13:369][708]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.04-06.05.13:369][708]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.04-06.05.13:369][708]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.02.04-06.05.13:369][708]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.02.04-06.05.13:369][708]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.02.04-06.05.13:369][708]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.04-06.05.13:369][708]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.04-06.05.13:369][708]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.04-06.05.13:369][708]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.04-06.05.13:371][708]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.04-06.05.13:394][708]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Focusrite USB Audio)
+[2024.02.04-06.05.13:394][708]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.04-06.05.13:394][708]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.04-06.05.13:394][708]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.04-06.05.13:395][708]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=14
+[2024.02.04-06.05.13:395][708]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=14
+[2024.02.04-06.05.13:397][708]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=14
+[2024.02.04-06.05.13:397][708]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=14
+[2024.02.04-06.05.13:397][708]LogInit: FAudioDevice initialized with ID 14.
+[2024.02.04-06.05.13:397][708]LogAudio: Display: Audio Device (ID: 14) registered with world 'TutorialMap'.
+[2024.02.04-06.05.13:397][708]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 14
+[2024.02.04-06.05.13:399][708]LogLoad: Game class is 'GM_Tutorial_C'
+[2024.02.04-06.05.13:399][708]LogWorld: Bringing World /Game/InfiniteMatrix/Maps/UEDPIE_0_TutorialMap.TutorialMap up for play (max tick rate 0) at 2024.02.04-00.05.13
+[2024.02.04-06.05.13:399][708]LogWorld: Bringing up level for play took: 0.000295
+[2024.02.04-06.05.13:401][708]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=1344.659 Y=-18.534 Z=50.151] for [BP_Enemy_C]
+[2024.02.04-06.05.13:405][708]PIE: Server logged in
+[2024.02.04-06.05.13:405][708]PIE: Play in editor total start time 0.106 seconds.
+[2024.02.04-06.05.15:784][992]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=13561.991 Y=61.370 Z=-61.956] for [BP_Enemy_C]
+[2024.02.04-06.05.18:059][265]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=16441.763 Y=-26.780 Z=49.693] for [BP_Enemy_C]
+[2024.02.04-06.05.31:151][836]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=38621.319 Y=83.038 Z=84.210] for [BP_Enemy_C]
+[2024.02.04-06.05.32:826][ 37]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=43557.926 Y=-61.144 Z=-46.922] for [BP_Enemy_C]
+[2024.02.04-06.05.33:551][124]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=46075.120 Y=-79.363 Z=-16.062] for [BP_Enemy_C]
+[2024.02.04-06.05.33:552][124]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=46265.262 Y=7.346 Z=-62.963] for [BP_Enemy_C]
+[2024.02.04-06.05.34:810][275]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=51204.433 Y=-72.460 Z=-81.793] for [BP_Enemy_C]
+[2024.02.04-06.05.36:335][458]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=58532.418 Y=46.770 Z=57.537] for [BP_Enemy_C]
+[2024.02.04-06.05.37:239][566]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=63566.129 Y=-25.748 Z=-45.134] for [BP_Enemy_C]
+[2024.02.04-06.05.37:647][615]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=65959.412 Y=40.049 Z=-74.621] for [BP_Enemy_C]
+[2024.02.04-06.05.38:015][659]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=68896.297 Y=-22.013 Z=65.575] for [BP_Enemy_C]
+[2024.02.04-06.05.38:347][699]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.02.04-06.05.38:347][699]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2024.02.04-06.05.39:355][820]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.02.04-06.05.39:355][820]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2024.02.04-06.05.39:356][820]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=61465.865 Y=-99.561 Z=-8.267] for [BP_Enemy_C]
+[2024.02.04-06.05.39:357][820]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=63937.831 Y=84.802 Z=-17.710] for [BP_Enemy_C]
+[2024.02.04-06.05.39:357][820]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=63942.299 Y=99.817 Z=-27.091] for [BP_Enemy_C]
+[2024.02.04-06.05.39:358][820]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=66007.501 Y=-36.735 Z=4.599] for [BP_Enemy_C]
+[2024.02.04-06.05.39:359][820]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=68818.662 Y=19.578 Z=-8.945] for [BP_Enemy_C]
+[2024.02.04-06.05.50:801][193]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.05.52:521][399]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.05.52:721][423]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.05.52:921][447]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.05.52:954][451]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.02.04-06.05.52:954][451]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2024.02.04-06.05.53:121][471]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.05.53:321][495]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.05.53:521][519]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.05.53:721][543]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.05.53:921][567]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.05.54:121][591]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.05.54:328][616]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.02.04-06.05.54:328][616]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2024.02.04-06.05.54:332][616]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=82149.673 Y=13.089 Z=-6.131] for [BP_Enemy_C]
+[2024.02.04-06.05.57:501][996]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.05.58:784][150]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.05.58:984][174]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.06.00:333][336]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.02.04-06.06.00:333][336]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2024.02.04-06.06.01:083][426]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.02.04-06.06.01:083][426]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2024.02.04-06.06.01:084][426]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=83654.202 Y=23.338 Z=87.744] for [BP_Enemy_C]
+[2024.02.04-06.06.01:085][426]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=83654.056 Y=-78.106 Z=23.826] for [BP_Enemy_C]
+[2024.02.04-06.06.01:086][426]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=85805.192 Y=-66.082 Z=98.529] for [BP_Enemy_C]
+[2024.02.04-06.06.01:088][426]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=93242.825 Y=-98.560 Z=-33.030] for [BP_Enemy_C]
+[2024.02.04-06.06.01:089][426]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=93200.874 Y=-82.476 Z=-8.103] for [BP_Enemy_C]
+[2024.02.04-06.06.02:637][612]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.02.04-06.06.02:637][612]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2024.02.04-06.06.03:419][706]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.02.04-06.06.03:419][706]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2024.02.04-06.06.03:421][706]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=84699.486 Y=-95.270 Z=35.478] for [BP_Enemy_C]
+[2024.02.04-06.06.08:114][269]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.02.04-06.06.08:115][269]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2024.02.04-06.06.08:898][363]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.02.04-06.06.08:898][363]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2024.02.04-06.06.08:900][363]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=89681.004 Y=-5.478 Z=-54.662] for [BP_Enemy_C]
+[2024.02.04-06.06.08:901][363]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=92588.993 Y=20.640 Z=23.185] for [BP_Enemy_C]
+[2024.02.04-06.06.08:901][363]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=92611.553 Y=52.306 Z=-61.559] for [BP_Enemy_C]
+[2024.02.04-06.06.08:903][363]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=97202.611 Y=-7.834 Z=-49.004] for [BP_Enemy_C]
+[2024.02.04-06.06.10:026][498]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.02.04-06.06.10:026][498]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2024.02.04-06.06.10:584][565]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.02.04-06.06.10:584][565]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2024.02.04-06.06.10:587][565]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=93547.268 Y=49.608 Z=-7.260] for [BP_Enemy_C]
+[2024.02.04-06.06.10:590][565]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=101086.307 Y=-9.812 Z=45.274] for [BP_Enemy_C]
+[2024.02.04-06.06.10:972][611]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.02.04-06.06.10:972][611]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2024.02.04-06.06.11:538][679]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.02.04-06.06.11:538][679]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2024.02.04-06.06.11:539][679]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=91029.766 Y=-44.719 Z=72.900] for [BP_Enemy_C]
+[2024.02.04-06.06.11:541][679]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=96237.579 Y=9.085 Z=31.358] for [BP_Enemy_C]
+[2024.02.04-06.06.11:543][679]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=98612.295 Y=-93.139 Z=-89.447] for [BP_Enemy_C]
+[2024.02.04-06.06.11:543][679]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=98871.653 Y=-95.984 Z=-1.828] for [BP_Enemy_C]
+[2024.02.04-06.06.13:501][914]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.02.04-06.06.13:501][914]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2024.02.04-06.06.14:192][997]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.02.04-06.06.14:192][997]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2024.02.04-06.06.14:193][997]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=93481.673 Y=63.152 Z=-11.106] for [BP_Enemy_C]
+[2024.02.04-06.06.14:194][997]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=95738.868 Y=-25.266 Z=53.728] for [BP_Enemy_C]
+[2024.02.04-06.06.14:195][997]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=95547.993 Y=55.608 Z=0.607] for [BP_Enemy_C]
+[2024.02.04-06.06.14:196][997]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=98128.946 Y=0.302 Z=-88.067] for [BP_Enemy_C]
+[2024.02.04-06.06.14:197][997]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=100962.410 Y=20.768 Z=26.988] for [BP_Enemy_C]
+[2024.02.04-06.06.14:198][997]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=102997.509 Y=36.540 Z=-99.322] for [BP_Enemy_C]
+[2024.02.04-06.06.14:763][ 65]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.02.04-06.06.14:763][ 65]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2024.02.04-06.06.15:388][140]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.02.04-06.06.15:388][140]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2024.02.04-06.06.15:389][140]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=93853.980 Y=-16.733 Z=90.246] for [BP_Enemy_C]
+[2024.02.04-06.06.15:390][140]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=96085.393 Y=-76.128 Z=-14.975] for [BP_Enemy_C]
+[2024.02.04-06.06.15:391][140]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=101066.294 Y=-21.348 Z=-68.456] for [BP_Enemy_C]
+[2024.02.04-06.06.16:874][318]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.02.04-06.06.16:874][318]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2024.02.04-06.06.17:465][389]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.02.04-06.06.17:465][389]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2024.02.04-06.06.17:466][389]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=95185.805 Y=32.267 Z=80.749] for [BP_Enemy_C]
+[2024.02.04-06.06.17:467][389]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=97554.020 Y=-24.693 Z=59.478] for [BP_Enemy_C]
+[2024.02.04-06.06.17:468][389]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=100505.554 Y=17.350 Z=44.151] for [BP_Enemy_C]
+[2024.02.04-06.06.22:174][953]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.02.04-06.06.22:174][953]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2024.02.04-06.06.29:530][747]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.04-06.06.29:530][747]LogWorld: BeginTearingDown for /Game/InfiniteMatrix/Maps/UEDPIE_0_TutorialMap
+[2024.02.04-06.06.29:530][747]LogWorld: UWorld::CleanupWorld for TutorialMap, bSessionEnded=true, bCleanupResources=true
+[2024.02.04-06.06.29:530][747]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.04-06.06.29:533][747]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.04-06.06.29:536][747]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.04-06.06.29:546][747]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.02.04-06.06.29:546][747]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 14
+[2024.02.04-06.06.29:546][747]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2024.02.04-06.06.29:547][747]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2024.02.04-06.06.29:551][747]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.04-06.06.29:553][747]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2024.02.04-06.06.29:607][752]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2024.02.04-06.07.39:379][873]LogEditorTransaction: Undo Move Node
+[2024.02.04-06.08.01:680][440]LogEditorTransaction: Undo Move Nodes
+[2024.02.04-06.08.30:505][725]LogEditorTransaction: Undo Add Node
+[2024.02.04-06.08.33:357][988]LogEditorTransaction: Undo Add Node
+[2024.02.04-06.08.37:314][401]LogEditorTransaction: Undo Move Node
+[2024.02.04-06.09.14:207][577]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.04-06.09.14:254][577]LogSavePackage: Moving output files for package: /Game/InfiniteMatrix/Blueprints/BP_Player
+[2024.02.04-06.09.14:255][577]LogSavePackage: Moving '../../../../../../Users/Calvin/Desktop/cs415/mp1/InfiniteMatrixStarter 5.3/Saved/BP_Player017D7E0B4E4663CF48E8CFA823688EBC.tmp' to '../../../../../../Users/Calvin/Desktop/cs415/mp1/InfiniteMatrixStarter 5.3/Content/InfiniteMatrix/Blueprints/BP_Player.uasset'
+[2024.02.04-06.09.14:260][577]LogFileHelpers: InternalPromptForCheckoutAndSave took 52 ms (total: 1.09 sec)
+[2024.02.04-06.09.14:261][577]AssetCheck: New page: Asset Save: BP_Player
+[2024.02.04-06.09.14:261][577]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/InfiniteMatrix/Blueprints/BP_Player.BP_Player
+[2024.02.04-06.09.14:985][663]BlueprintLog: New page: Compile BP_Player
+[2024.02.04-06.09.15:036][663]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2024.02.04-06.09.17:099][898]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.02.04-06.09.17:102][898]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.04-06.09.17:102][898]PIE: New page: PIE session: TutorialMap (Feb 3, 2024, 6:09:17 PM)
+[2024.02.04-06.09.17:102][898]LogPlayLevel: Display: Creating online subsystem for client :Context_27
+[2024.02.04-06.09.17:104][898]LogOnline: OSS: Created online subsystem instance for: :Context_27
+[2024.02.04-06.09.17:110][899]LogPlayLevel: Creating play world package: /Game/InfiniteMatrix/Maps/UEDPIE_0_TutorialMap
+[2024.02.04-06.09.17:111][899]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001405s)
+[2024.02.04-06.09.17:111][899]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/InfiniteMatrix/Maps/TutorialMap.TutorialMap to /Game/InfiniteMatrix/Maps/UEDPIE_0_TutorialMap.TutorialMap (0.001432s)
+[2024.02.04-06.09.17:122][899]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2024.02.04-06.09.17:130][899]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.04-06.09.17:130][899]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.04-06.09.17:130][899]LogAIModule: Creating AISystem for world TutorialMap
+[2024.02.04-06.09.17:130][899]LogPlayLevel: PIE: World Init took: (0.000683s)
+[2024.02.04-06.09.17:130][899]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2024.02.04-06.09.17:130][899]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.04-06.09.17:130][899]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.04-06.09.17:130][899]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.04-06.09.17:130][899]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.04-06.09.17:130][899]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.02.04-06.09.17:130][899]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.02.04-06.09.17:130][899]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.02.04-06.09.17:130][899]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.04-06.09.17:130][899]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.04-06.09.17:130][899]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.04-06.09.17:130][899]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.04-06.09.17:132][899]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.04-06.09.17:155][899]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Focusrite USB Audio)
+[2024.02.04-06.09.17:155][899]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.04-06.09.17:155][899]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.04-06.09.17:155][899]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.04-06.09.17:156][899]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=15
+[2024.02.04-06.09.17:156][899]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=15
+[2024.02.04-06.09.17:157][899]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=15
+[2024.02.04-06.09.17:157][899]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=15
+[2024.02.04-06.09.17:157][899]LogInit: FAudioDevice initialized with ID 15.
+[2024.02.04-06.09.17:157][899]LogAudio: Display: Audio Device (ID: 15) registered with world 'TutorialMap'.
+[2024.02.04-06.09.17:157][899]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 15
+[2024.02.04-06.09.17:159][899]LogLoad: Game class is 'GM_Tutorial_C'
+[2024.02.04-06.09.17:160][899]LogWorld: Bringing World /Game/InfiniteMatrix/Maps/UEDPIE_0_TutorialMap.TutorialMap up for play (max tick rate 0) at 2024.02.04-00.09.17
+[2024.02.04-06.09.17:160][899]LogWorld: Bringing up level for play took: 0.000291
+[2024.02.04-06.09.17:164][899]PIE: Server logged in
+[2024.02.04-06.09.17:165][899]PIE: Play in editor total start time 0.063 seconds.
+[2024.02.04-06.09.23:898][706]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.02.04-06.09.23:898][706]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2024.02.04-06.09.24:731][806]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.02.04-06.09.24:731][806]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2024.02.04-06.09.24:734][806]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=13878.228 Y=60.356 Z=86.004] for [BP_Enemy_C]
+[2024.02.04-06.09.24:735][806]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=16415.839 Y=11.942 Z=-38.762] for [BP_Enemy_C]
+[2024.02.04-06.09.24:736][806]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=18499.994 Y=-73.028 Z=35.978] for [BP_Enemy_C]
+[2024.02.04-06.09.27:692][887]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=21114.859 Y=82.897 Z=-81.603] for [BP_Enemy_C]
+[2024.02.04-06.09.27:692][887]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=21129.142 Y=57.134 Z=-98.236] for [BP_Enemy_C]
+[2024.02.04-06.09.32:425][377]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=26457.240 Y=-34.935 Z=85.186] for [BP_Enemy_C]
+[2024.02.04-06.09.35:315][719]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.04-06.09.35:315][719]LogWorld: BeginTearingDown for /Game/InfiniteMatrix/Maps/UEDPIE_0_TutorialMap
+[2024.02.04-06.09.35:315][719]LogWorld: UWorld::CleanupWorld for TutorialMap, bSessionEnded=true, bCleanupResources=true
+[2024.02.04-06.09.35:315][719]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.04-06.09.35:317][719]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.04-06.09.35:320][719]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.04-06.09.35:330][719]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.02.04-06.09.35:330][719]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 15
+[2024.02.04-06.09.35:330][719]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2024.02.04-06.09.35:331][719]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2024.02.04-06.09.35:333][719]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.04-06.09.35:335][719]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2024.02.04-06.09.35:378][721]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2024.02.04-06.09.36:636][870]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.02.04-06.09.36:639][870]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.04-06.09.36:639][870]PIE: New page: PIE session: TutorialMap (Feb 3, 2024, 6:09:36 PM)
+[2024.02.04-06.09.36:665][870]LogPlayLevel: Display: Creating online subsystem for client :Context_28
+[2024.02.04-06.09.36:666][870]LogOnline: OSS: Created online subsystem instance for: :Context_28
+[2024.02.04-06.09.36:672][871]LogPlayLevel: Creating play world package: /Game/InfiniteMatrix/Maps/UEDPIE_0_TutorialMap
+[2024.02.04-06.09.36:674][871]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001146s)
+[2024.02.04-06.09.36:674][871]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/InfiniteMatrix/Maps/TutorialMap.TutorialMap to /Game/InfiniteMatrix/Maps/UEDPIE_0_TutorialMap.TutorialMap (0.001173s)
+[2024.02.04-06.09.36:683][871]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2024.02.04-06.09.36:684][871]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.04-06.09.36:684][871]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.04-06.09.36:685][871]LogAIModule: Creating AISystem for world TutorialMap
+[2024.02.04-06.09.36:685][871]LogPlayLevel: PIE: World Init took: (0.000697s)
+[2024.02.04-06.09.36:685][871]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2024.02.04-06.09.36:685][871]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.04-06.09.36:685][871]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.04-06.09.36:685][871]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.04-06.09.36:685][871]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.04-06.09.36:685][871]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.02.04-06.09.36:685][871]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.02.04-06.09.36:685][871]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.02.04-06.09.36:685][871]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.04-06.09.36:685][871]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.04-06.09.36:685][871]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.04-06.09.36:685][871]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.04-06.09.36:687][871]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.04-06.09.36:708][871]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Focusrite USB Audio)
+[2024.02.04-06.09.36:708][871]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.04-06.09.36:708][871]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.04-06.09.36:708][871]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.04-06.09.36:709][871]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=16
+[2024.02.04-06.09.36:709][871]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=16
+[2024.02.04-06.09.36:710][871]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=16
+[2024.02.04-06.09.36:710][871]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=16
+[2024.02.04-06.09.36:710][871]LogInit: FAudioDevice initialized with ID 16.
+[2024.02.04-06.09.36:710][871]LogAudio: Display: Audio Device (ID: 16) registered with world 'TutorialMap'.
+[2024.02.04-06.09.36:710][871]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 16
+[2024.02.04-06.09.36:712][871]LogLoad: Game class is 'GM_Tutorial_C'
+[2024.02.04-06.09.36:712][871]LogWorld: Bringing World /Game/InfiniteMatrix/Maps/UEDPIE_0_TutorialMap.TutorialMap up for play (max tick rate 0) at 2024.02.04-00.09.36
+[2024.02.04-06.09.36:712][871]LogWorld: Bringing up level for play took: 0.000288
+[2024.02.04-06.09.36:715][871]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=1214.742 Y=-27.329 Z=39.622] for [BP_Enemy_C]
+[2024.02.04-06.09.36:717][871]PIE: Server logged in
+[2024.02.04-06.09.36:718][871]PIE: Play in editor total start time 0.079 seconds.
+[2024.02.04-06.09.41:400][431]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=16322.869 Y=-4.855 Z=-19.004] for [BP_Enemy_C]
+[2024.02.04-06.09.47:599][175]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.02.04-06.09.47:599][175]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2024.02.04-06.09.48:499][283]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.02.04-06.09.48:499][283]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2024.02.04-06.09.48:502][283]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=16000.779 Y=97.363 Z=-0.150] for [BP_Enemy_C]
+[2024.02.04-06.09.49:366][386]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.09.50:984][580]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=26369.766 Y=30.442 Z=5.814] for [BP_Enemy_C]
+[2024.02.04-06.09.54:292][977]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.02.04-06.09.54:292][977]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2024.02.04-06.09.55:157][ 81]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.02.04-06.09.55:157][ 81]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2024.02.04-06.09.59:866][645]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.02.04-06.09.59:866][645]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2024.02.04-06.10.00:548][727]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.02.04-06.10.00:548][727]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2024.02.04-06.10.00:553][727]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=29717.445 Y=24.888 Z=29.557] for [BP_Enemy_C]
+[2024.02.04-06.10.03:041][ 25]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=37195.068 Y=-72.631 Z=-77.544] for [BP_Enemy_C]
+[2024.02.04-06.10.04:165][160]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.02.04-06.10.04:165][160]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2024.02.04-06.10.05:123][275]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.02.04-06.10.05:123][275]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2024.02.04-06.10.05:127][275]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=31295.213 Y=35.166 Z=86.883] for [BP_Enemy_C]
+[2024.02.04-06.10.10:327][898]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.10.10:527][922]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.10.10:726][946]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.10.10:926][970]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.10.11:127][994]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.10.12:485][157]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.10.12:686][181]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.10.12:886][205]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.10.13:018][221]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.02.04-06.10.13:018][221]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2024.02.04-06.10.13:018][221]LogScript: Warning: Script Msg: The widget 'WBP_Restart_C_0' was already added to the screen.
+[2024.02.04-06.10.13:018][221]LogScript: Warning: Script Msg called by: BP_Player_C /Game/InfiniteMatrix/Maps/UEDPIE_0_TutorialMap.TutorialMap:PersistentLevel.BP_Player_C_0
+[2024.02.04-06.10.13:085][229]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.10.13:285][253]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.10.13:485][277]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.10.13:685][301]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.10.13:885][325]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.10.14:092][350]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.02.04-06.10.14:092][350]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2024.02.04-06.10.14:094][350]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=37012.502 Y=-8.475 Z=-60.613] for [BP_Enemy_C]
+[2024.02.04-06.10.14:821][437]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.10.15:022][461]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.10.15:227][485]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.10.15:426][509]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.10.17:576][767]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.10.17:777][791]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.10.22:794][393]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=57008.272 Y=33.146 Z=33.634] for [BP_Enemy_C]
+[2024.02.04-06.10.24:359][581]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.10.25:060][665]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.10.26:053][784]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=62040.390 Y=-17.130 Z=-92.395] for [BP_Enemy_C]
+[2024.02.04-06.10.26:068][786]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.10.35:662][937]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=86793.336 Y=21.928 Z=48.717] for [BP_Enemy_C]
+[2024.02.04-06.10.36:262][  9]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=89587.468 Y=94.934 Z=-5.063] for [BP_Enemy_C]
+[2024.02.04-06.10.36:804][ 74]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=92112.334 Y=23.380 Z=18.363] for [BP_Enemy_C]
+[2024.02.04-06.10.37:304][134]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=94742.673 Y=-56.755 Z=-53.618] for [BP_Enemy_C]
+[2024.02.04-06.10.37:304][134]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=94616.546 Y=-57.793 Z=78.845] for [BP_Enemy_C]
+[2024.02.04-06.10.38:163][237]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=99855.030 Y=27.555 Z=74.053] for [BP_Enemy_C]
+[2024.02.04-06.10.39:763][429]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=111989.650 Y=42.430 Z=-97.375] for [BP_Enemy_C]
+[2024.02.04-06.10.40:037][462]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.02.04-06.10.40:037][462]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2024.02.04-06.11.59:837][ 27]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.02.04-06.11.59:837][ 27]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2024.02.04-06.11.59:841][ 27]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=109205.349 Y=-87.811 Z=6.082] for [BP_Enemy_C]
+[2024.02.04-06.12.04:023][528]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.12.04:222][552]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.12.04:423][576]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.12.04:623][600]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.12.04:823][624]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.12.05:023][648]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.12.05:223][672]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.12.05:423][696]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.12.05:623][720]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.12.05:823][744]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.12.06:023][768]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.12.06:223][792]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.12.06:423][816]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.12.06:624][840]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.12.06:824][864]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.12.07:023][888]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.12.07:223][912]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.12.07:424][936]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.12.07:624][960]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.12.07:823][984]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.12.08:024][  8]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.12.08:224][ 32]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.12.08:424][ 56]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.12.08:542][ 70]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=124373.647 Y=25.925 Z=65.429] for [BP_Enemy_C]
+[2024.02.04-06.12.08:624][ 80]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.12.08:823][104]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.12.09:024][128]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.12.09:223][152]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.12.09:427][176]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.12.09:627][200]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.12.09:826][224]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.12.10:253][275]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=126760.136 Y=71.215 Z=53.148] for [BP_Enemy_C]
+[2024.02.04-06.12.11:209][390]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.12.11:409][414]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.12.11:610][438]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.12.11:810][462]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.12.12:010][486]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.12.12:210][510]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.12.12:410][534]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.12.12:610][558]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.12.12:810][582]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.12.13:010][606]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.12.13:210][630]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.12.13:410][654]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.12.13:610][678]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.12.14:494][784]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.12.14:503][785]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=134507.080 Y=-91.015 Z=-25.663] for [BP_Enemy_C]
+[2024.02.04-06.12.14:694][808]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.12.14:894][832]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.12.15:093][856]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.12.15:494][904]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.12.15:694][928]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to movement component's 'UpdatedComponent' not being a collider component.
+[2024.02.04-06.12.17:696][168]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=141714.066 Y=16.794 Z=20.981] for [BP_Enemy_C]
+[2024.02.04-06.12.19:454][379]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=147022.846 Y=25.205 Z=42.833] for [BP_Enemy_C]
+[2024.02.04-06.12.20:254][475]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=149306.903 Y=-1.370 Z=-20.078] for [BP_Enemy_C]
+[2024.02.04-06.12.22:287][719]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.02.04-06.12.22:287][719]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2024.02.04-06.12.23:585][875]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.02.04-06.12.23:585][875]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2024.02.04-06.12.23:588][875]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=146983.831 Y=55.620 Z=72.283] for [BP_Enemy_C]
+[2024.02.04-06.12.23:589][875]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=149633.873 Y=9.293 Z=-13.596] for [BP_Enemy_C]
+[2024.02.04-06.12.23:590][875]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=149604.703 Y=-52.617 Z=56.694] for [BP_Enemy_C]
+[2024.02.04-06.12.23:591][875]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=151995.825 Y=-26.963 Z=57.866] for [BP_Enemy_C]
+[2024.02.04-06.12.23:591][875]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=154293.213 Y=27.018 Z=31.748] for [BP_Enemy_C]
+[2024.02.04-06.12.23:592][875]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=157172.802 Y=63.732 Z=96.142] for [BP_Enemy_C]
+[2024.02.04-06.12.23:593][875]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=157166.338 Y=97.266 Z=47.264] for [BP_Enemy_C]
+[2024.02.04-06.12.26:070][172]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=159231.138 Y=-9.110 Z=30.747] for [BP_Enemy_C]
+[2024.02.04-06.12.26:070][172]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=159344.575 Y=86.261 Z=47.789] for [BP_Enemy_C]
+[2024.02.04-06.12.26:070][172]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=159649.437 Y=-0.180 Z=93.048] for [BP_Enemy_C]
+[2024.02.04-06.12.28:345][445]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=161935.124 Y=13.504 Z=93.548] for [BP_Enemy_C]
+[2024.02.04-06.12.30:411][693]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=164175.875 Y=7.614 Z=-6.998] for [BP_Enemy_C]
+[2024.02.04-06.12.32:286][918]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=167053.121 Y=11.423 Z=33.055] for [BP_Enemy_C]
+[2024.02.04-06.12.32:286][918]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=167154.180 Y=21.714 Z=-34.703] for [BP_Enemy_C]
+[2024.02.04-06.12.32:286][918]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=166680.142 Y=98.853 Z=64.257] for [BP_Enemy_C]
+[2024.02.04-06.12.33:995][123]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=169718.030 Y=39.177 Z=4.331] for [BP_Enemy_C]
+[2024.02.04-06.12.35:544][309]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=172193.750 Y=-83.886 Z=86.981] for [BP_Enemy_C]
+[2024.02.04-06.12.35:544][309]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=172112.998 Y=75.335 Z=-78.796] for [BP_Enemy_C]
+[2024.02.04-06.12.35:545][309]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=171798.120 Y=-17.777 Z=-45.415] for [BP_Enemy_C]
+[2024.02.04-06.12.36:961][479]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=174555.116 Y=30.479 Z=99.542] for [BP_Enemy_C]
+[2024.02.04-06.12.36:961][479]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=174422.599 Y=39.195 Z=-44.414] for [BP_Enemy_C]
+[2024.02.04-06.12.36:961][479]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=174511.243 Y=-20.359 Z=64.116] for [BP_Enemy_C]
+[2024.02.04-06.12.39:411][773]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=179483.557 Y=62.877 Z=-39.354] for [BP_Enemy_C]
+[2024.02.04-06.12.39:411][773]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=179458.818 Y=29.490 Z=10.654] for [BP_Enemy_C]
+[2024.02.04-06.12.39:412][773]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=179434.336 Y=61.003 Z=-61.565] for [BP_Enemy_C]
+[2024.02.04-06.12.40:470][900]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=182071.468 Y=-48.503 Z=78.527] for [BP_Enemy_C]
+[2024.02.04-06.12.40:470][900]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=181960.448 Y=-87.439 Z=49.193] for [BP_Enemy_C]
+[2024.02.04-06.12.40:470][900]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=181864.589 Y=-70.299 Z=87.854] for [BP_Enemy_C]
+[2024.02.04-06.12.41:436][ 16]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=184574.618 Y=-42.271 Z=-15.769] for [BP_Enemy_C]
+[2024.02.04-06.12.41:436][ 16]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=184199.332 Y=14.719 Z=93.573] for [BP_Enemy_C]
+[2024.02.04-06.12.41:436][ 16]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=184602.524 Y=-87.652 Z=55.528] for [BP_Enemy_C]
+[2024.02.04-06.12.42:320][122]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=187095.749 Y=-34.928 Z=13.950] for [BP_Enemy_C]
+[2024.02.04-06.12.42:320][122]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=186907.529 Y=78.246 Z=-76.397] for [BP_Enemy_C]
+[2024.02.04-06.12.42:320][122]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=186875.814 Y=-71.929 Z=30.680] for [BP_Enemy_C]
+[2024.02.04-06.12.43:203][228]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=189211.197 Y=-54.125 Z=71.923] for [BP_Enemy_C]
+[2024.02.04-06.12.43:203][228]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=189612.998 Y=-19.224 Z=47.630] for [BP_Enemy_C]
+[2024.02.04-06.12.43:203][228]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=189560.445 Y=-29.093 Z=96.796] for [BP_Enemy_C]
+[2024.02.04-06.12.44:078][333]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=191907.053 Y=-41.636 Z=8.328] for [BP_Enemy_C]
+[2024.02.04-06.12.44:875][428]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=194710.321 Y=0.644 Z=78.607] for [BP_Enemy_C]
+[2024.02.04-06.12.44:875][428]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=194598.074 Y=95.495 Z=-1.169] for [BP_Enemy_C]
+[2024.02.04-06.12.45:599][515]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=196933.036 Y=-80.572 Z=99.109] for [BP_Enemy_C]
+[2024.02.04-06.12.46:259][594]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=199388.833 Y=-9.958 Z=70.959] for [BP_Enemy_C]
+[2024.02.04-06.12.46:259][594]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=199260.656 Y=-54.820 Z=-63.421] for [BP_Enemy_C]
+[2024.02.04-06.12.46:260][594]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=199323.884 Y=-16.959 Z=45.817] for [BP_Enemy_C]
+[2024.02.04-06.12.46:859][666]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=201787.719 Y=-35.679 Z=71.691] for [BP_Enemy_C]
+[2024.02.04-06.12.46:859][666]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=201643.941 Y=72.967 Z=-11.722] for [BP_Enemy_C]
+[2024.02.04-06.12.46:860][666]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=201947.813 Y=-87.719 Z=-37.852] for [BP_Enemy_C]
+[2024.02.04-06.12.46:860][666]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=201971.178 Y=-12.449 Z=-98.352] for [BP_Enemy_C]
+[2024.02.04-06.12.47:400][731]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=204446.477 Y=-9.824 Z=93.176] for [BP_Enemy_C]
+[2024.02.04-06.12.47:400][731]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=204212.461 Y=44.237 Z=28.220] for [BP_Enemy_C]
+[2024.02.04-06.12.47:901][791]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=206721.104 Y=46.721 Z=8.731] for [BP_Enemy_C]
+[2024.02.04-06.12.48:351][845]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=209220.921 Y=3.940 Z=9.732] for [BP_Enemy_C]
+[2024.02.04-06.12.48:759][894]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=212047.957 Y=6.003 Z=6.931] for [BP_Enemy_C]
+[2024.02.04-06.12.49:126][938]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=214373.891 Y=39.933 Z=-35.722] for [BP_Enemy_C]
+[2024.02.04-06.12.49:467][979]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=216661.098 Y=37.602 Z=53.154] for [BP_Enemy_C]
+[2024.02.04-06.12.49:776][ 16]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=219627.152 Y=65.026 Z=-3.708] for [BP_Enemy_C]
+[2024.02.04-06.12.49:776][ 16]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=219264.043 Y=-87.786 Z=-30.003] for [BP_Enemy_C]
+[2024.02.04-06.12.49:776][ 16]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=219672.399 Y=-87.939 Z=94.659] for [BP_Enemy_C]
+[2024.02.04-06.12.50:051][ 49]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=221752.342 Y=72.039 Z=18.851] for [BP_Enemy_C]
+[2024.02.04-06.12.50:051][ 49]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=221820.771 Y=43.663 Z=56.951] for [BP_Enemy_C]
+[2024.02.04-06.12.50:051][ 49]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=221763.421 Y=-23.203 Z=74.541] for [BP_Enemy_C]
+[2024.02.04-06.12.50:052][ 49]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=222106.699 Y=87.262 Z=1.474] for [BP_Enemy_C]
+[2024.02.04-06.12.50:309][ 80]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=224471.471 Y=-89.911 Z=46.831] for [BP_Enemy_C]
+[2024.02.04-06.12.50:310][ 80]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=224591.720 Y=82.763 Z=-77.422] for [BP_Enemy_C]
+[2024.02.04-06.12.50:310][ 80]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=224332.032 Y=46.312 Z=17.667] for [BP_Enemy_C]
+[2024.02.04-06.12.50:533][107]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.02.04-06.12.50:533][107]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2024.02.04-06.12.52:808][377]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.04-06.12.52:808][377]LogWorld: BeginTearingDown for /Game/InfiniteMatrix/Maps/UEDPIE_0_TutorialMap
+[2024.02.04-06.12.52:808][377]LogWorld: UWorld::CleanupWorld for TutorialMap, bSessionEnded=true, bCleanupResources=true
+[2024.02.04-06.12.52:808][377]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.04-06.12.52:811][377]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.04-06.12.52:814][377]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.04-06.12.52:822][377]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.04-06.12.52:822][377]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 16
+[2024.02.04-06.12.52:822][377]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2024.02.04-06.12.52:823][377]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2024.02.04-06.12.52:829][377]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2024.02.04-06.12.52:886][383]LogPlayLevel: Display: Destroying online subsystem :Context_28
